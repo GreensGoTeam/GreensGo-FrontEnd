@@ -4,10 +4,10 @@ This is our react application that will handle all the frontend requests it uses
 
 To use:
 
-##Type npm init
+## Type npm init
 after dependencies install run:
 
-##Yarn Start
+## Yarn Start
 Please keep inmind that the API would also need to started inorder to see Data
 
 Thats it
