@@ -4,12 +4,10 @@ import Lib from '../lib/dataHandling.lib';
 class Data {
     getAll() {
         return localStorage.getItem("dataFetched");
-        // return http.get(`/all`);
     }
 
     getAllData() {
         return localStorage.getItem("allData");
-        // return http.get(`/all`);
     }
 
     getAllAPI() {
