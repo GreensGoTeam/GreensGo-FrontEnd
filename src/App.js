@@ -41,7 +41,8 @@ class App extends Component {
         )
     }
 
-
+    //This is our render component in REACT it allows us to call any components that we have if the path of our URL is changed.
+    
     render() {
     return (
         <BrowserRouter>

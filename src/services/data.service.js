@@ -2,6 +2,7 @@ import http from '../http-common';
 import Lib from '../lib/dataHandling.lib';
 
 class Data {
+    //This function stores all the data in the local storage of the web browser.
     getAll() {
         return localStorage.getItem("dataFetched");
     }
@@ -14,6 +15,7 @@ class Data {
         return http.get(`/all`);
     }
 
+    //Data is parsed into a stringified json object for easy manipulation. 
     async getAllGlobal() {
         await http.get(`/all`).then(res => {
             const AllData = res.data;
