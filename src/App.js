@@ -4,13 +4,14 @@ import { Switch, Route, BrowserRouter } from "react-router-dom";
 // Components
 import DashboardComponent from "./components/pages/dashboard.component";
 import NotFoundComponent from "./components/pages/notfound.component";
+import HistoryComponent from "./components/pages/history.component";
 
 // Styles
 import './App.css';
 import 'rsuite/lib/styles/themes/default/index.less';
 import DataService from "./services/data.service";
 import {Alert} from "rsuite";
-import HistoryComponent from "./components/pages/history.component";
+
 
 class App extends Component {
     constructor(props) {
